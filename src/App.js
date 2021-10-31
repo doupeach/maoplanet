@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import ProductCard from './components/productCard';
+import ProductCat from './pages/ProductCat';
 
 function App() {
   return (
-    <ProductCard/>
+    <ProductCat/>
   );
 }
 

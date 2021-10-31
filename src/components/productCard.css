@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap");
 
 .product-card-container {
-  width: 250px;
-  height: 350px;
+  max-width: 25%;
+  width: 20%;
   display: flex;
   flex-direction: column;
+  padding: 3px;
+}
+
+.card-pic-area {
+  width: 100%;
+  position: relative;
 }
 
 .overlay {
@@ -17,15 +23,8 @@
   transition: background 0.5s ease;
 }
 
-.card-pic-area {
-  width: 250px;
-  height: 250px;
-  position: relative;
-}
-
 .card-pic {
-  position: absolute;
-  left: 0;
+  width: 100%;
 }
 
 .product-card-container:hover .overlay {
@@ -34,28 +33,29 @@
 }
 
 .hoverBtn {
-  width: 216px;
-  height: 48px;
   position: absolute;
-  left: 17px;
-  top: 190px;
-  text-align: center;
-  opacity: 0;
+  width: 85%;
+  height: 20%;
+  bottom: 8%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
   transition: opacity 0.35s ease;
   background-color: #f5df4d;
   border-radius: 5px;
 }
 
 .hoverBtn a {
-  width: 84px;
-  font-size: 1rem;
+  width: 80%;
+  font-size: 0.2rem;
   font-weight: 500;
-  display: inline-block;
-  padding: 10px 20px;
   color: white;
   text-decoration: none;
   z-index: 1;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .product-card-container:hover .hoverBtn {
@@ -65,8 +65,7 @@
 .title,
 .price {
   text-align: center;
-  font-size: 0.9rem;
-  margin-top: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .hoverBtn a,
@@ -78,7 +77,10 @@
 .title {
   color: #646464;
   font-weight: 500;
+  margin-top: 0.8rem;
 }
 .price {
   color: #939597;
+  margin-top: 0.6rem;
+  margin-bottom: 1.2rem;
 }

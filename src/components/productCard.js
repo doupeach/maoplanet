@@ -1,9 +1,9 @@
-import './product_card.css'
-import catImg from '../images/catpic.png'
+import './productCard.css'
+import catImg from '../images/productList-images/cat_cardPic_250X250.png'
 
 function ProductCard(){
     return(
-        <div className="product-card-container">
+    <div className="product-card-container">
         <div className="card-pic-area">
             <img className="card-pic" src={catImg} alt=""></img>
             <div className="overlay"></div>

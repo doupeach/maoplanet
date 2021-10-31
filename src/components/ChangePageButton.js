@@ -1,4 +1,4 @@
-import './changePageButton.css'
+import '../Styles/ChangePageButton.scss'
 
 const ChangePageButton = () => {
     return (

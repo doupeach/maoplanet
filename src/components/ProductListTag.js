@@ -1,10 +1,10 @@
-import './productListTag.css'
+import '../Styles/ProductListTag.scss'
 
 
 const ProductListTag = (props)=>{
     return(
         <>
-            <button>{props.children}</button>
+            <button class='ProductListTag'>{props.children}</button>
         </>
     )
 }

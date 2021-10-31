@@ -1,5 +1,5 @@
 import subHero_cat from '../images/productList-images/cat_subHeroSection_850X500.png'
-import './productListSubHero.css'
+import '../Styles/ProductListSubHero.scss'
 
 const ProductListSubHero = () => {
     return(
